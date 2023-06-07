@@ -18,5 +18,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/nnna31894/CI
-            azure-pipeline-name: 'CI(1)'
+            azure-pipeline-name: 'CI'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
